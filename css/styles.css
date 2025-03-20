@@ -122,18 +122,24 @@ h6 {
   height: 600px;
 }
 
+.hero > .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .section-baner-title {
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  margin-top: 0 auto;
   padding-top: 188px;
   padding-bottom: 48px;
-  margin: 0 auto;
-  width: 496px;
-  height: 120px;
 }
 
 .btn-banner {
@@ -145,9 +151,11 @@ h6 {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
-  margin: 0 auto;
   width: 169px;
   height: 56px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 188px;
 }
 
 .btn-banner:hover,
@@ -157,14 +165,12 @@ h6 {
 
 /* --section about-- */
 .section-features {
-  width: calc(100% - 72px) / 4;
-  height: 104px;
-  padding-top: 120px;
-  margin-bottom: 120px;
   margin: 0 auto;
+  padding-top: 120px;
 }
 
 .section-title {
+  display: none;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -173,8 +179,13 @@ h6 {
 }
 .features-list {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   gap: 24px;
+}
+
+.features-ithem {
+  width: calc((100% - 72px) / 4);
 }
 
 .card-title {
@@ -183,8 +194,8 @@ h6 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-right: 24px;
 }
+
 .card-text {
   font-weight: 400;
   font-size: 16px;
