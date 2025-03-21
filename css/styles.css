@@ -163,10 +163,11 @@ h6 {
   background-color: #404bbf;
 }
 
-/* --section about-- */
+/* --section feature-- */
 .section-features {
   margin: 0 auto;
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-title {
@@ -211,9 +212,9 @@ h6 {
   display: flex;
   justify-content: space-between;
   padding-top: 120px;
-  padding-bottom: 120px;
-  margin-bottom: 120px;
-  height: 732px;
+ 
+  
+  
 }
 
 .team-ithem {
@@ -229,7 +230,7 @@ h6 {
   text-align: center;
   color: #2e2f42;
   margin: 0 auto;
-  padding-top: 120px;
+  
 }
 
 .team-list {
@@ -242,44 +243,22 @@ h6 {
 
 .team-info {
   display: flex;
-  justify-content: center;
   align-items: center;
-  width: 232px;
-  height: 56px;
-}
-
-.card-team-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-align: center;
-  padding-top: 32px;
-  padding-left: 65px;
-  padding-right: 65px;
-}
-
-.card-team-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-align: center;
-  padding-top: 8px;
-  padding-left: 68px;
-  padding-right: 68px;
+  flex-direction: column;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  row-gap: 8px;
 }
 
 /* --section portfolio-- */
 
 .portfolio {
-  background-color: #f4f4fd;
   display: flex;
   justify-content: space-between;
-  margin-top: 120px;
-  height: 1000px;
+  
+  
 }
 
 .portfolio-title {
@@ -290,7 +269,8 @@ h6 {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  margin: 0 auto;
+  padding-top: 120px;
+  
 }
 
 .portfolio-list {
@@ -300,6 +280,15 @@ h6 {
   row-gap: 48px;
   column-gap: 24px;
   padding-top: 72px;
+  padding-bottom: 112px;
+}
+
+.portfolio-info {
+  display: flex;
+  align-items: 0;
+  flex-direction: column;
+  margin: 0 0 0 0;
+  row-gap: 8px;
 }
 
 .card-portfolio-title {
@@ -318,9 +307,8 @@ h6 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-top: 8px;
   padding-left: 16px;
-  padding-bottom: 48px;
+  padding-bottom: 32px;
 }
 
 /* --footer-- */
@@ -329,7 +317,8 @@ h6 {
   background-color: #2e2f42;
   height: 312px;
   padding-top: 100px;
-  padding-bottom: 100px;
+  
+  margin-top: 0;
 }
 
 .footer-logo {
