@@ -212,9 +212,6 @@ h6 {
   display: flex;
   justify-content: space-between;
   padding-top: 120px;
- 
-  
-  
 }
 
 .team-ithem {
@@ -230,7 +227,6 @@ h6 {
   text-align: center;
   color: #2e2f42;
   margin: 0 auto;
-  
 }
 
 .team-list {
@@ -257,8 +253,6 @@ h6 {
 .portfolio {
   display: flex;
   justify-content: space-between;
-  
-  
 }
 
 .portfolio-title {
@@ -270,7 +264,6 @@ h6 {
   text-align: center;
   color: #2e2f42;
   padding-top: 120px;
-  
 }
 
 .portfolio-list {
@@ -280,7 +273,7 @@ h6 {
   row-gap: 48px;
   column-gap: 24px;
   padding-top: 72px;
-  padding-bottom: 112px;
+  margin-bottom: 112px;
 }
 
 .portfolio-info {
@@ -315,10 +308,14 @@ h6 {
 
 .page-footer {
   background-color: #2e2f42;
-  height: 312px;
-  padding-top: 100px;
-  
-  margin-top: 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  row-gap: 16px;
 }
 
 .footer-logo {
@@ -329,11 +326,12 @@ h6 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding-left: 15px;
+  
 }
 
 .footer-logo .logo-part {
   color: #f4f4fd;
+  height: 312px;
 }
 
 .footer-text {
@@ -342,7 +340,6 @@ h6 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  padding-top: 16px;
-  padding-left: 15px;
-  padding-right: 849px;
+  
+  
 }
