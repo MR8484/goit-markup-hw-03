@@ -143,7 +143,7 @@ h6 {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  margin-top: 0 auto;
+
   padding-bottom: 48px;
 }
 
@@ -182,7 +182,7 @@ h6 {
   margin: -1px;
   padding: 0;
   overflow: hidden;
-  clip-path: 100%;
+  clip-path: inset(100%);
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
@@ -295,7 +295,6 @@ h6 {
 
 .portfolio-info {
   display: flex;
-  align-items: 0;
   flex-direction: column;
   margin: 0 0 0 0;
   border: 1px solid #e7e9fc;
