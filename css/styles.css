@@ -36,7 +36,7 @@ h6 {
 }
 
 img {
-  display: block; /* Робить зображення блоковим елементом */
+  display: block;
   max-width: 100%;
 }
 
