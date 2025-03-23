@@ -179,11 +179,11 @@ h6 {
   width: 1px;
   height: 1px;
   margin: -1px;
+  border: 0;
   padding: 0;
   overflow: hidden;
   clip-path: inset (100%);
   clip: rect (0, 0, 0, 0);
-  border: 0;
   overflow: hidden;
 }
 
@@ -350,10 +350,7 @@ h6 {
   color: #4d5ae5;
   margin-bottom: 16px;
   max-width: 115px;
-
 }
-
-
 
 .footer-logo .logo-part {
   color: #f4f4fd;
