@@ -78,11 +78,10 @@ img {
 }
 
 .logo {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 0px;
+  font: 700 18px / 1.16667 "Raleway", sans-serif;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
   margin-right: 76px;
   padding: 24px 0;
 }
